@@ -1,0 +1,21 @@
+postgres &
+psql -U postgres
+
+dotnet new api 
+
+dotnet run
+
+npx create-react-app gettodo
+npm start
+
+
+python3 -m venv venv
+source venv/bin/activate
+pip install flask 
+pip freeze > requirements.txt
+pip install -r requirements.txt
+
+
+export FLASK_APP=app.py
+flask run
+
